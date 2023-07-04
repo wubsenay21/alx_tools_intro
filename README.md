@@ -1,1 +1,1 @@
-This is my first commit. hard
+This is my first commit. hard to survive
