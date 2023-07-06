@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> My Web Page </title>
+    </head>
+    <body>
+        <h1>The Fish Web Site</h1>
+        <p>Welcome to the Fish Web Site. Everything you want to know about fish is in this website.</p>
+        <!--Ordered and Unordered-->
+        <ul>
+            <li>CD</li>
+            <li>DVD</li>
+            <li>Blu Ray</li>
+        </ul>
+        <ol>
+            <li>CD</li>
+            <li>DVD</li>
+            <li>B;u Ray</li>
+        </ol>
+        <!--Creating a table-->
+        <table>
+            <tr>
+                <th> The Planets</th>
+                <th> The Ocean</th>
+                <th> The Deserts</th>
+            </tr>
+            <tr>
+                <td>Earth</td>
+                <td>Pacific</td>
+                <td>Sahara</td>
+            </tr>
+            <tr>
+                <td>Pluto</td>
+                <td>Atlantic</td>
+                <td>Gobi</td>
+            </tr>
+        </table>
+        <!--Creating a web link-->
+        <p> Please click on this link
+            <a href="www.github.com">GitHub Home Page</a>
+        </p>
+        <!--Creating links within same web page-->
+        <ul>
+            <li><a href="#Birds">Birds Section</a></li>
+            <li><a href="#Ducks">Ducks Section</a></li>
+        </ul>
+        <br>
+        <br>
+        <br>
+        <p> <a name="Birds"> This is the article about birds. </a> </p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p> <a name="Ducks"> This is the article about ducks. </a> </p>
+        <br>
+        <br>
+
+        <!--Adding Image to a web page-->
+        <h1>People gathering</h1>
+        <p><img src="image.JPG" width="300" alt="People"></p>
+        <br>
+        <br>
+        <!--Resizing and sizing images-->
+        <h1>People gathering</h1>
+        <p><img src="image.JPG" width= "400" height="300" ="People"></p>
+        <br>
+        <br>
+        <br>
+        <!--One-line text box-->
+        <form action="" method="">
+            <input type="text" name="" size="50" id="">
+            <input type="text" name="" id=""> <br><br>
+            <input type="text" name="" id="">
+            <!-- Input elements go in here -->
+        </form>
+        <br>
+        <br>
+        <!--One-line text box-->
+        <form action="" method="">
+            <label for="firstname">First Name:</label>
+            <input type="text" name="" id="firstname">
+            <input type="text" name="" id=""> <br><br>
+            <label for="lastname">Last Name:</label>
+            <input type="text" name="" id="lastname">
+            <br>
+            <!-- Input elements go in here -->
+        </form>
+
+        <!--Multi-line text box-->
+        <br>
+        <form action="">
+            Comments: <br>
+            <textarea name="" id="" cols="40" rows="10"></textarea> 
+            <br>
+            <input type="submit" name="" id="submit">
+        </form>
+        <br>
+        <br>
+        <!--Radio buttons-->
+        <br>
+        <form action="" method="">
+            Yes:
+            <input type="radio" name="yesorno" id=""> <br>
+            No:
+            <input type="radio" name="yesorno" id="">
+        </form>
+        <br>
+        <!--Checkbox-->
+        <br>
+        <form action="" method="">
+            Which subjects are you interested in? <br>
+            <input type="checkbox" name="" checked="checked" id=""> Football <br>
+            <input type="checkbox" name="" id=""> Basketball <br>
+            <input type="checkbox" name="" id=""> Baseball <br>
+            <input type="checkbox" name="" id=""> hockey
+        </form>
+        <br>
+        <!--Number input box-->
+        <br>
+        <form action="" method="">
+            Write a number
+            <input type="number" name="" id=""> <br><br>
+            Select a number
+            <input type="number" name="" id="" min="0" max="50">
+        </form>
+        <br>
+
+        <!--Drop-down list-->
+        <br>
+        <form action="" method="">
+            Select Your State
+          <select name="" id="">
+            <option value="None">None</option>
+            <option value="Michigan">Michigan</option>
+            <option value="Alabama">Alabama</option>
+            <option value="North Dakota">North Dakota</option>
+          </select>
+        </form>
+        <br>
+        <br>
+        <!--Date and number box-->
+        <form>
+            Enter day you want to travel to Cancun:
+            <input type="date" name="day" id="">
+            Number of days: <input type="number" name="numdays" id="" min="1" max="10">
+        </form>
+        <br>
+        <!--Fieldbox and Legend elements-->
+        <form>
+            <fieldset>
+            <legend>Enter day you want to travel to Cancun:</legend>
+            <input type="date" name="day" id="">
+            Number of days: <input type="number" name="numdays" id="" min="1" max="10">
+            <br><br>
+            Name: <input type="text" name="" id="">
+        </fieldset>
+        </form>
+        <br>
+        <br><br>
+        <!--HTML-Attributes-->
+        <p></p> <h1></h1> <body></body><!--this are tags and elements-->
+        <p class="test">Some text in this paragraph</p> <!--in this one class is a general attribute which can be used in almost all cases-->
+        <label for="name">Name</label> <!--In this case for is an attribute specific to lable-->
+        <br><br>
+        <!--The meta element (which always go inside the header element)-->
+        <head>
+            <title></title>
+            <meta name="discription"content="This is a web page about fish.
+            We cover all the fish in the world.">
+            <meta name="keywords"content="fish, ocean, aquarium">
+            <meta http-equiv="author"content="John Doe">
+            <meta http-equiv="content-language"content="en-us">
+        </head>
+        <br>
+        <!--Escape characters and white spaces (&nbsp; &#8482; &copy; &amp; &gt; &#63; etc)-->
+        <head></head>
+        <body>
+            <p>And so we end our tale. &nbsp;&nbsp;&nbsp;The &copy;End&#8482;</p>
+        </body>
+        <br>
+        <br>
+        <!--Bold and italic elements-->
+        <p>This is a <b>bold element.</b> </p>
+        <p>This is a <strong>strong element.</strong> </p>
+        
+        <p>This is an <i>italic element.</i> </p>
+        <p>This is a <em>em element.</em> </p>
+        <br><br>
+        <!--iframe element-->
+        <body>
+            <iframe src="home.html" frameborder="1" width="200" height="200" 
+            name="ouriframe" id="ouriframe">
+            Do you see this?
+            </iframe> <br><br>
+            <a href="home.html" target="ouriframe">switch to new document</a>
+        </body>
+        <br><br>
+        <!--sup (superscript) and sub (subscript) elements-->
+        <br><br>
+        <body>
+            <p>The expert said a lot on August 23<sup>rd</sup>. </p>
+            <p>There is plenty of H<sub>2</sub>O in the lake. </p>
+        </body>
+        <br><br>
+        <!--Title and alt attributes-->
+        <body>
+            <img src="Caesar.png" width="100" title="Julius Caeser" alt="Julius Caeser"> <br><br>
+            <img src="Caesar1.png" width="100" title="Julius Caeser" alt="Julius Caeser">
+        </body>
+        <br><br>
+        <!--Audio element-->
+        <body>
+            <audio controls="audiocontrols" src="test1.mp3"></audio>
+        </body>
+        <br><br>
+        <!--Audio element attributes-->
+        <body>
+            <audio controls autoplay loop draggable="true" src="test1.mp3"></audio>
+        </body>
+        <br><br>
+         <!--Video element-->
+         <body> width="640" height="360" controls
+            <video src="videotest.mp4"></video>
+        </body>
+        <br><br>
+        <br><br>
+        <!--Doctype (the function of this is only to tell the browser what type of document to expect)-->
+        <!DOCTYPE html>
+
+
+        test &nbsp;&nbsp;&nbsp;&nbsp; test
+        <br>
+        <br>
+        <br>
+        <!-- This is the start of the html code for the second section and we will start each section with a header tag-->
+        <h2>This is a section on Bass fish</h2>
+        <p>Welcome to the Fish Web Site. Everything you wan to know about fish is in this website</p>
+    </body>
+
+
+
+
+
+
+
+
+</html>
